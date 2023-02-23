@@ -1,6 +1,6 @@
 import math from "./lib/math"
 
-let print = (...message: any) => console.log(...message)
+const print = console.log
 
 let ans = math.add(5, 6)
 

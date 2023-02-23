@@ -19,12 +19,12 @@ var math = {
     multiply: multiply
 };
 
+var print = console.log;
 var ans = math.add(5, 6);
-var print = function () { return console.log(ans); };
-print();
+print(ans);
 ans = math.subtract(ans, 4);
-print();
+print(ans);
 ans = math.multiply(ans, 10);
-print();
+print(ans);
 ans = math.divide(ans, 2);
-print();
+print(ans);

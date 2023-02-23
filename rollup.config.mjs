@@ -1,4 +1,5 @@
 import typescript from '@rollup/plugin-typescript'
+import eslint from '@rollup/plugin-eslint'
 
 export default {
   input: 'src/index.ts',
@@ -6,5 +7,8 @@ export default {
     file: 'index.js',
     format: 'cjs'
   },
-  plugins: [typescript()]
+  plugins: [
+    typescript(),
+    eslint()
+  ]
 }
