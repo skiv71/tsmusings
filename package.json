@@ -1,0 +1,24 @@
+{
+  "name": "ts-musings",
+  "version": "1.0.0",
+  "description": "Typescript musings",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*",
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "rollup": "^3.17.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0"
+  }
+}
